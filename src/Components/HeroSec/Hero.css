@@ -1,0 +1,139 @@
+.Hero-cont {
+  /* border: 1px solid; */
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.Common-width {
+  width: 85%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.image img {
+  width: 90%;
+  border-radius: 20%;
+  border: 5px solid gray;
+}
+
+@media (max-width: 750px) {
+  .Hero-cont {
+    /* border: 1px solid; */
+    max-width: 100vw;
+    height: 85vh;
+  }
+  .Common-width {
+    width: 95%;
+    height: 84vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image {
+    background-image: url(./particle.png);
+    background-size: cover;
+    width: 100%;
+    max-height: 28%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+  }
+  .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .content-hero {
+    min-width: 100%;
+    min-height: 70%;
+    max-height: 72%;
+    /* border: 1px solid green; */
+    display: flex !important;
+    justify-content: start !important;
+  }
+  .content-hero h4 {
+    min-width: 100%;
+    text-align: center;
+    font-size: 15px !important;
+    margin-top: 5px;
+  }
+  .content-hero h2 {
+    margin-top: -8px;
+    font-size: 26px !important;
+    font-weight: 500;
+    text-align: justify !important;
+  }
+  .content-hero h2 span {
+    font-size: 25px !important;
+  }
+  .content-hero p {
+    margin-top: -9px !important;
+    font-size: 15px !important;
+    text-align: justify;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 10px !important;
+  }
+}
+
+/* Content Section Design  */
+.content-hero {
+  width: 70%;
+  /* border: 1px solid green; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.content-hero h4 {
+  background-color: gray;
+  width: 30%;
+  padding: 5px;
+  font-size: 18px;
+  color: aliceblue;
+  font-weight: 300;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.content-hero h2 {
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.content-hero h2 span {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  background-color: #ed2a2a77;
+  padding: 0 5px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.content-hero p {
+  margin-top: -7px;
+}
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}

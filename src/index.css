@@ -1,0 +1,85 @@
+/* FontFamily Import GoogleFont------------ */
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Great+Vibes&family=Lora:ital@0;1&family=Poppins:wght@300&display=swap");
+
+/* font-family: 'Forum', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Colors----------------------------------- */
+:root {
+  --primary: #1f3e72;
+  --secondary: rgba(255, 255, 255, 0.78);
+  --black: #131110;
+  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --blue: #4066ff;
+  --lightBlue: #eeeeff;
+  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+/* ------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* ------------------- */
+body {
+
+  background-color: #D8D9DA;
+  
+
+  /* dark Shade */
+  /* background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526); */
+
+  /* Default Font Family */
+  font-family: "Lora", serif;
+}
+
+/* ------------------------Reusable Css ------------------------- */
+/* Buttons */
+.blackbutton {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--black);
+  color: whitesmoke;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.blackbutton:hover {
+  font-size: 18px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid var(--primary);
+  transition: 0.3s ease-in;
+}
+
+.white-button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ADC4CE;
+  color: #252B48;
+  border: 1px solid transparent ;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.white-button:hover {
+  font-size: 18px;
+  background-color: var(--black);
+  color: rgb(255, 255, 255);
+  border: 1px solid var(--primary);
+  transition: 0.3s ease-in;
+}
+
