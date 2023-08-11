@@ -26,7 +26,7 @@ const TechSec = () => {
           </div>
 
           <div className="icon-w">
-            <img className="js" src="/logos/javascript.png" alt="JavaScript" />
+            <img className="js" src="/logos/java.png" alt="JavaScript" />
             <p>JavaScript</p>
           </div>
 
