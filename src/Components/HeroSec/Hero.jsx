@@ -6,13 +6,14 @@ const Hero = () => {
     <div className="Hero-cont">
       <div className="Common-width">
         <div className="image">
-          <img src=" /image.jpg" alt="" />
+          <h2>WORK</h2>
+          <h3>FOLIO</h3>
         </div>
 
         <div className="content-hero">
           <h4>End-to-End Developer</h4>
           <h2>
-            Navigating Both Ends of the Web: Full Stack😎 Wonders{" "}
+            Navigating Both Ends of the Web: Full Stack😎Wonders
             <span>Unveiled</span>
           </h2>
           <p>
