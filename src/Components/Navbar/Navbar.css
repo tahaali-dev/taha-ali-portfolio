@@ -1,8 +1,7 @@
 .Nav-Cont {
-  margin-top: 8px;
-  /* border: 1px solid black; */
+  margin-top: 5px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* Left Side`----------- */
@@ -66,6 +65,8 @@
   border-bottom: 2px solid orangered;
   transition: 0.3s ease-in-out;
 }
+
+/* Mobile Styling-------- */
 
 .Nav-mobile {
   display: none;
@@ -170,12 +171,6 @@
   border: none;
  
 }
-/* .menu-close {
-  position: absolute;
-  right: 175px;
-  bottom: 15px;
-  font-size: 25px;
-} */
 
 .mobile-menu-cont {
   /* border: 1px solid; */

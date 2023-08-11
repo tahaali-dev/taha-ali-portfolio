@@ -16,42 +16,44 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="Nav-Cont">
-        <div className="nav-left">
-          <h5>
-            <Link to="/" className="link">
-              Taha
-            </Link>
-          </h5>
-        </div>
+      <div className="width-85">
+        <div className="Nav-Cont ">
+          <div className="nav-left">
+            <h5>
+              <Link to="/" className="link">
+                Taha
+              </Link>
+            </h5>
+          </div>
 
-        <div className="nav-middle">
-          <ul>
-            <li>
-              <i className="fa-brands fa-square-github"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-linkedin"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-square-instagram"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-square-twitter"></i>
-            </li>
-          </ul>
-        </div>
+          <div className="nav-middle">
+            <ul>
+              <li>
+                <i className="fa-brands fa-square-github"></i>
+              </li>
+              <li>
+                <i className="fa-brands fa-linkedin"></i>
+              </li>
+              <li>
+                <i className="fa-brands fa-square-instagram"></i>
+              </li>
+              <li>
+                <i className="fa-brands fa-square-twitter"></i>
+              </li>
+            </ul>
+          </div>
 
-        <div className="nav-right">
-          <ul>
-            <Link className="link"> Skills</Link>
-            <Link className="link">Education</Link>
-            <Link className="link">Projects</Link>
-            <Link to="/about" className="link">
-              About Me
-            </Link>
-          </ul>
-          <button className="blackbutton">Contact</button>
+          <div className="nav-right">
+            <ul>
+              <Link className="link"> Skills</Link>
+              <Link className="link">Education</Link>
+              <Link className="link">Projects</Link>
+              <Link to="/about" className="link">
+                About Me
+              </Link>
+            </ul>
+            <button className="blackbutton">Contact</button>
+          </div>
         </div>
       </div>
 

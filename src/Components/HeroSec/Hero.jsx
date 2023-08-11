@@ -3,8 +3,8 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="Hero-cont">
-      <div className="Common-width">
+    <div className="Hero-cont ">
+      <div className="Common-width width-85">
         <div className="image">
           <h2>WORK</h2>
           <h3>FOLIO</h3>
