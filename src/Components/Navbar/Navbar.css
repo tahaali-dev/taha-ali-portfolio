@@ -48,7 +48,7 @@
   display: flex;
   gap: 20px;
 }
-.link{
+.link {
   text-decoration: none;
   color: black;
 }
@@ -59,7 +59,6 @@
   color: var(--primary);
   padding: 5px;
   border-bottom: 2px solid transparent;
-  
 }
 .nav-right ul .link:hover {
   list-style: none;
@@ -67,7 +66,6 @@
   border-bottom: 2px solid orangered;
   transition: 0.3s ease-in-out;
 }
-
 
 .Nav-mobile {
   display: none;
@@ -96,11 +94,14 @@
   position: fixed;
   bottom: 5px;
   width: 95vw;
-  background-color: rgba(0, 0, 0, 0.089);
+  min-height: 8vh;
+  background-color: #f6f4eb;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   border-radius: 10px;
   color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Left Side`----------- */
@@ -151,7 +152,7 @@
 .mobile-menu {
   /* border: 1px solid; */
   position: fixed;
-  bottom: 55px;
+  bottom: 65px;
   width: 100vw;
   height: 60px;
   transition: 0.3s ease-in;
@@ -159,17 +160,15 @@
   padding: 5px;
   display: flex;
   justify-content: center;
-  z-index: -1;
+  z-index: 1;
 }
 .mobile-close {
-  border: 1px solid;
   position: fixed;
   bottom: -400px;
-  width: 100vw;
+  width: 96%;
   height: 60px;
-  border-radius: 15px;
-  padding: 5px;
   border: none;
+ 
 }
 /* .menu-close {
   position: absolute;
@@ -181,14 +180,16 @@
 .mobile-menu-cont {
   /* border: 1px solid; */
   width: 96%;
-  height: 100%;
+  min-height: 8vh;
   display: flex;
   gap: 15px;
   justify-content: space-evenly;
   padding-top: 15px;
-  background-color: rgba(0, 0, 0, 0.089);
+  background-color: #071952;
   border-radius: 10px;
   transition: 0.4s ease-in;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .mobile-menu-cont i {
