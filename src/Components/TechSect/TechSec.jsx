@@ -26,12 +26,16 @@ const TechSec = () => {
           </div>
 
           <div className="icon-w">
-            <img className="js" src="/logos/javascript.avif" alt="JavaScript" />
+            <img className="js" src="/logos/javascript.png" alt="JavaScript" />
             <p>JavaScript</p>
           </div>
 
           <div className="icon-w">
-            <img className="typescript" src="/logos/typescript.png" alt="typescript" />
+            <img
+              className="typescript"
+              src="/logos/typescript.png"
+              alt="typescript"
+            />
             <p>TypeScript</p>
           </div>
 
@@ -44,8 +48,6 @@ const TechSec = () => {
             <img className="vite" src="/logos/vite.png" alt="vite" />
             <p>Vite</p>
           </div>
-
-         
 
           <div className="icon-w">
             <img className="redux" src="/logos/redux.png" alt="redux" />

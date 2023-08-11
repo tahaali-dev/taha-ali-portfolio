@@ -153,7 +153,8 @@
 .mobile-menu {
   /* border: 1px solid; */
   position: fixed;
-  bottom: 65px;
+  bottom: 60px;
+  left: 0;
   width: 100vw;
   height: 60px;
   transition: 0.3s ease-in;
@@ -173,7 +174,7 @@
 }
 
 .mobile-menu-cont {
-  /* border: 1px solid; */
+  /* border: 1px solid ; */
   width: 96%;
   min-height: 8vh;
   display: flex;
