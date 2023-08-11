@@ -1,0 +1,89 @@
+.Tech-cont {
+  height: 210px;
+  background-color: #252b48;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Tech-cont h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #f6f4eb;
+}
+
+.icon-cont {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 25px;
+  overflow-x: scroll;
+}
+.icon-w {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.icon-w p {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+
+.icon-cont .icon-w img {
+  border-radius: 50%;
+  width: 104px;
+  /* border: 1px solid white; */
+}
+.html {
+  box-shadow: orangered 0px 5px 15px;
+}
+.css {
+  box-shadow: rgb(58, 142, 252) 0px 5px 15px;
+}
+.tailwind {
+  box-shadow: white 0px 5px 15px;
+}
+.js {
+  box-shadow: yellow 0px 5px 15px;
+}
+.typescript {
+  border: 5px solid black;
+  box-shadow: rgb(20, 221, 248) 0px 5px 15px;
+}
+
+.react {
+  border: 5px solid black;
+  box-shadow: blue 0px 5px 15px;
+}
+.vite {
+  border: 5px solid black;
+  box-shadow: rgb(154, 65, 255) 0px 5px 15px;
+}
+
+.redux {
+  border: 5px solid black;
+  box-shadow: white 0px 5px 15px;
+}
+
+.query {
+  border: 5px solid black;
+  box-shadow: rgb(255, 6, 6) 0px 5px 15px;
+}
+
+/* Mobile view */
+@media (max-width: 786px) {
+  .Tech-cont {
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px ;
+  }
+  .Tech-cont h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
