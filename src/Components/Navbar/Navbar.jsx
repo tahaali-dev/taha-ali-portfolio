@@ -84,16 +84,16 @@ const Navbar = () => {
             <i className="fa-solid fa-bars"></i>
           </p>
         </div>
-      </div>
 
-      {/* Mobile Menu */}
-      <div className={menu}>
-        <div className="mobile-menu-cont">
-          <i className="fa-regular fa-star"></i>
-          <i className="fa-solid fa-graduation-cap"></i>
-          <i className="fa-solid fa-list-check"></i>
-          <i className="fa-solid fa-user"></i>
-          <i className="fa-solid fa-plus"></i>
+        {/* Mobile Menu */}
+        <div className={menu}>
+          <div className="mobile-menu-cont">
+            <i className="fa-regular fa-star"></i>
+            <i className="fa-solid fa-graduation-cap"></i>
+            <i className="fa-solid fa-list-check"></i>
+            <i className="fa-solid fa-user"></i>
+            <i className="fa-solid fa-plus"></i>
+          </div>
         </div>
       </div>
     </>

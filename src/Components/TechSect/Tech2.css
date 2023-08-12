@@ -18,10 +18,8 @@
 }
 
 .tec2-right {
-  background-image: url(/par1.png);
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
+  background-image: url(/particle.png);
+  background-size: cover;
   /* border: 1px solid green; */
   width: 35%;
   height: 100%;
