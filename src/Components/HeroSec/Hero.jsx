@@ -1,16 +1,32 @@
 import React from "react";
 import "./Hero.css";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <div className="Hero-cont ">
       <div className="Common-width width-85">
-        <div className="image">
+        <motion.div
+          initial={{ x: "-3rem", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 1,
+            type: "ease-in",
+          }}
+          className="image"
+        >
           <h2>WORK</h2>
           <h3>FOLIO</h3>
-        </div>
+        </motion.div>
 
-        <div className="content-hero">
+        <motion.div 
+        initial={{ x: "3rem", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{
+          duration: 1,
+          type: "ease-in",
+        }}
+        className="content-hero">
           <h4>End-to-End Developer</h4>
           <h2>
             Navigating Both Ends of the Web: Full Stack😎Wonders
@@ -26,7 +42,7 @@ const Hero = () => {
             <button className="blackbutton">Get In Touch</button>
             <button className="white-button">Resume</button>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

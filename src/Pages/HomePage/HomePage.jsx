@@ -15,6 +15,7 @@ const HomePage = () => {
       <Tech2 />
       <OtherTechs />
       <About />
+  
     </>
   );
 };
