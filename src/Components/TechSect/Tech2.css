@@ -8,13 +8,12 @@
   align-items: center;
   overflow: hidden;
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
-  margin: 10px 0;
 }
 .tec2-left {
   /* border: 1px solid red; */
   width: 70%;
   height: 100%;
-  background-color: #9DB2BF;
+  background-color: #272829;
   padding-left: 10px;
 }
 
@@ -36,7 +35,7 @@
 .tec2-right h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 110px;
-  color: rgb(5, 184, 14);
+  color: #FFB400;
 }
 .node {
   border: 5px solid black;
@@ -61,7 +60,7 @@
   .prisma {
     height: 104px;
     border: 5px solid black;
-    box-shadow: rgb(255, 51, 51) 0px 5px 15px;
+    box-shadow: darkblue 0px 5px 15px;
   }
 
 @media(max-width:786px){

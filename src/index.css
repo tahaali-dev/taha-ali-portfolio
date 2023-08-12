@@ -35,7 +35,7 @@ html {
 }
 /* ------------------- */
 body {
-  background-color: #f6f4eb;
+  background-color: #f1fff1;
   /* Default Font Family */
   font-family: "Lora", serif;
   display: flex;
@@ -46,13 +46,15 @@ body {
 
 /* ------------------------Reusable Css ------------------------- */
 .width-100c {
+  min-width: 100vw;
   max-width: 100vw;
   display: flex;
   justify-content: center;
   /* border: 1px solid; */
 }
 .width-85 {
-  max-width: 85vw ;
+  min-width: 85vw;
+  max-width: 85vw;
   /* border: 1px solid red; */
 }
 
@@ -69,14 +71,13 @@ body {
   border: 1px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   text-decoration: none;
+  transition: 0.3s ease-in;
 }
 
 .blackbutton:hover {
   font-size: 18px;
-  background-color: transparent;
-  color: black;
-  border: 1px solid var(--primary);
-  transition: 0.3s ease-in;
+  transform: scale(1.08);
+  transition: 0.3s ease-out;
 }
 
 .white-button {
@@ -85,17 +86,16 @@ body {
   font-weight: 300;
   padding: 8px;
   border-radius: 8px;
-  background-color: #adc4ce;
+  background-color: #b1e693;
   color: #252b48;
-  border: 1px solid rgba(0, 0, 0, 0.205);
+  border: none;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   text-decoration: none;
+  transition: 0.3s ease-in;
 }
 
 .white-button:hover {
   font-size: 18px;
-  background-color: var(--black);
-  color: rgb(255, 255, 255);
-  border: 1px solid var(--primary);
-  transition: 0.3s ease-in;
+  transform: scale(1.08);
+  transition: 0.3s ease-out;
 }

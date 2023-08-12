@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="width-85">
+      <div className="sticky">
         <div className="Nav-Cont ">
           <div className="nav-left">
             <h5>

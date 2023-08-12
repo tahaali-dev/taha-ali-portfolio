@@ -1,7 +1,7 @@
 import "./Tech2.css";
 const Tech2 = () => {
   return (
-    <div className="width-100">
+    <div className="width-100c">
       <div className="width-85 tech2-cont">
         <div className="tec2-left">
           <div className="icon-cont">

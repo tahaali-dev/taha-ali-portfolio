@@ -2,7 +2,7 @@ import "./TechSect.css";
 
 const TechSec = () => {
   return (
-    <div className="width-100">
+    <div className="width-100c">
       <div className="width-85 Tech-cont">
         <h2>FrontEnd Technology's I Know🚀</h2>
         <div className="icon-cont">

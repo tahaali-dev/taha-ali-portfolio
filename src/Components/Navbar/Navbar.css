@@ -1,7 +1,19 @@
+.sticky {
+  position: sticky;
+  top: 0px;
+  background-color: #f1fff1;
+  /* border: 1px solid; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 .Nav-Cont {
+  width: 85vw;
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid; */
 }
 
 /* Left Side`----------- */
@@ -170,7 +182,6 @@
   width: 96%;
   height: 60px;
   border: none;
- 
 }
 
 .mobile-menu-cont {

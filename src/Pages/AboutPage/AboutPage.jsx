@@ -1,7 +1,9 @@
-import React from "react";
-
 const AboutPage = () => {
-  return <div>About Page Coming Soon</div>;
+  return (
+    <div className="width-100c">
+      <div className="width-85">About Page Coming Soon</div>
+    </div>
+  );
 };
 
 export default AboutPage;
