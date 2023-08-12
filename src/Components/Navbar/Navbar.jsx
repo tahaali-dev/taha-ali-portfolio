@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import HomePage from "../../Pages/HomePage/HomePage";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("mobile-close");
@@ -67,11 +68,21 @@ const Navbar = () => {
                 Qualification
               </Link>
 
-              <Link className="link">Projects</Link>
+              <Link
+                onClick={() => scrollToSection("portfolio", 70)}
+                className="link"
+              >
+                Projects
+              </Link>
 
               <Link
+                onClick={
+                  <HomePage/>
+                    ? () => scrollToSection("aboutsection", 70)
+                    : to = "/about"
+                }
+                
                 className="link"
-                onClick={() => scrollToSection("aboutsection")}
               >
                 About Me
               </Link>
