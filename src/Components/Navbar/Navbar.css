@@ -109,8 +109,9 @@
   position: fixed;
   bottom: 5px;
   width: 95vw;
-  min-height: 8vh;
-  background-color: #f6f4eb;
+  min-height: 9vh;
+  /* background-color: #f6f4eb; */
+backdrop-filter: blur(15px);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -127,8 +128,9 @@
 .mobile-left h5 {
   font-family: "Great Vibes", cursive;
   padding: 5px;
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 300;
+  color: #071952;
 }
 
 /* middle Side`----------- */
