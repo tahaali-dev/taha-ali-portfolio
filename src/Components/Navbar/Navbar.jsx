@@ -128,14 +128,14 @@ const Navbar = () => {
               className="link"
               onClick={() => scrollToSection("herosection", 70)}
             >
-              <i class="fa-solid fa-house fa"></i>
+              <i className="fa-solid fa-house fa"></i>
             </Link>
 
             <Link
               className="link"
               onClick={() => scrollToSection("skillssection", 70)}
             >
-              <i class="fa-solid fa-pen-clip fa"></i>
+              <i className="fa-solid fa-pen-clip fa"></i>
             </Link>
 
             <Link
