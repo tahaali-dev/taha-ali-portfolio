@@ -1,4 +1,5 @@
 import "./TechSect.css";
+import { motion } from "framer-motion";
 
 const TechSec = () => {
   return (

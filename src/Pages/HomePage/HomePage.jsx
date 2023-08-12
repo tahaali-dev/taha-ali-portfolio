@@ -4,6 +4,7 @@ import About from "../../Components/AboutSection/About";
 import TechSec from "../../Components/TechSect/TechSec";
 import Tech2 from "../../Components/TechSect/Tech2";
 import OtherTechs from "../../Components/TechSect/otherTechs";
+import Qualification from "../../Components/Qualification/Qualification";
 
 //---------------Imports------------
 
@@ -14,8 +15,8 @@ const HomePage = () => {
       <TechSec />
       <Tech2 />
       <OtherTechs />
+      <Qualification />
       <About />
-  
     </>
   );
 };
