@@ -19,7 +19,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/particle2.png);
+  background-image: url(/par1.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
 }
 .image h2 {
   font-family: "Bebas Neue", sans-serif;
