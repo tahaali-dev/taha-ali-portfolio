@@ -45,10 +45,34 @@ const Navbar = () => {
 
           <div className="nav-right">
             <ul>
-              <Link className="link"> Skills</Link>
-              <Link className="link">Education</Link>
+              <Link
+                to="/"
+                className="link"
+                onClick={() => scrollToSection("herosection", 70)}
+              >
+                Main
+              </Link>
+
+              <Link
+                className="link"
+                onClick={() => scrollToSection("skillssection", 70)}
+              >
+                Skills
+              </Link>
+
+              <Link
+                className="link"
+                onClick={() => scrollToSection("edusection", 70)}
+              >
+                Qualification
+              </Link>
+
               <Link className="link">Projects</Link>
-              <Link to="/about" className="link">
+
+              <Link
+                className="link"
+                onClick={() => scrollToSection("aboutsection")}
+              >
                 About Me
               </Link>
             </ul>
@@ -88,11 +112,38 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={menu}>
           <div className="mobile-menu-cont">
-            <i className="fa-regular fa-star"></i>
-            <i className="fa-solid fa-graduation-cap"></i>
-            <i className="fa-solid fa-list-check"></i>
-            <i className="fa-solid fa-user"></i>
-            <i className="fa-solid fa-plus"></i>
+            <Link
+              to="/"
+              className="link"
+              onClick={() => scrollToSection("herosection", 70)}
+            >
+              <i class="fa-solid fa-house fa"></i>
+            </Link>
+
+            <Link
+              className="link"
+              onClick={() => scrollToSection("skillssection", 70)}
+            >
+              <i class="fa-solid fa-pen-clip fa"></i>
+            </Link>
+
+            <Link
+              className="link"
+              onClick={() => scrollToSection("edusection", 70)}
+            >
+              <i className="fa-solid fa-graduation-cap fa"></i>
+            </Link>
+
+            <Link className="link">
+              <i className="fa-solid fa-list-check fa"></i>
+            </Link>
+
+            <Link
+              className="link"
+              onClick={() => scrollToSection("aboutsection")}
+            >
+              <i className="fa-solid fa-user fa"></i>
+            </Link>
           </div>
         </div>
       </div>
@@ -101,3 +152,12 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const scrollToSection = (id, offset = 0) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const topPosition =
+      element.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({ top: topPosition - offset, behavior: "smooth" });
+  }
+};

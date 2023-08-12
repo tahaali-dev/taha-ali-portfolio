@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="width-100c" >
+    <div className="width-100c" id="aboutsection">
       <div className="width-85 about-cont ">
         <h2>About Myself🧑</h2>
         <p>

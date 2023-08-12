@@ -4,32 +4,31 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="Hero-cont ">
-      <div className="Common-width width-85">
-        <div
-          className="image"
-        >
-          <motion.div 
-          initial={{ x: "-3rem", opacity: 0 }}
+    <div className="Hero-cont " id="herosection">
+      <div className="Common-width width-85" >
+        <div className="image">
+          <motion.div
+            initial={{ x: "-3rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 1,
+              type: "ease-in",
+            }}
+          >
+            <h2>WORK</h2>
+            <h3>FOLIO</h3>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ x: "3rem", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
             duration: 1,
             type: "ease-in",
           }}
-         >
-          <h2>WORK</h2>
-          <h3>FOLIO</h3>
-          </motion.div>
-        </div>
-
-        <motion.div 
-        initial={{ x: "3rem", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{
-          duration: 1,
-          type: "ease-in",
-        }}
-        className="content-hero">
+          className="content-hero"
+        >
           <h4>End-to-End Developer</h4>
           <h2>
             Navigating Both Ends of the Web: Full Stack😎Wonders

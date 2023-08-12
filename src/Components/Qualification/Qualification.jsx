@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Qualification = () => {
   return (
-    <div className="width-100c">
+    <div className="width-100c" id="edusection">
       <div className="width-85 edu-cont1 ">
         <h2>Qualification 🎓</h2>
         <div className="width-85 edu-cont2">

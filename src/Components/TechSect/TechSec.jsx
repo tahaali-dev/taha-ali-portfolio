@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const TechSec = () => {
   return (
-    <div className="width-100c">
-      <div className="width-85 Tech-cont">
+    <div className="width-100c" id="skillssection">
+      <div className="width-85 Tech-cont" >
         <h2>FrontEnd Technology's I Know🚀</h2>
         <div className="icon-cont">
           <div className="icon-w ">
