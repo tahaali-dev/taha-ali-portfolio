@@ -13,12 +13,12 @@ const HomePage = () => {
   return (
     <>
       <Hero />
+      <About />
+      <Qualification />
+      <PortfolioGrid />
       <TechSec />
       <Tech2 />
       <OtherTechs />
-      <Qualification />
-      <PortfolioGrid />
-      <About />
     </>
   );
 };

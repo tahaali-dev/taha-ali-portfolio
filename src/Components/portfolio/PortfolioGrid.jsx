@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Protfoliogrid.css";
+import { data } from "../../data/data";
 
 const PortfolioGrid = () => {
+  const intialcardload = 2;
+  const itemperpage = 2;
+
+  const [itemsToShow, setItemsToShow] = useState(intialcardload);
+
+  const handleLoadMore = () => {
+    setItemsToShow(itemsToShow + itemperpage);
+  };
+
   return (
     <div className="width-100c" id="portfolio">
       <div className="width-85 port-grid-cont ">
@@ -11,96 +21,27 @@ const PortfolioGrid = () => {
         </div>
 
         <div className="grid-card-cont ">
-          <div className="card relative">
-            <h2 className="hasttag">#1</h2>
-            <img src="/ss/img1.png" alt="img1" />
-            <div className="card-content">
-              <h3>Website1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quasi quo ab iure? Nulla, reiciendis.
-              </p>
-              <div className="card-icon">
-                <p>icon1</p>
-                <p>icon2</p>
+          {data.slice(0, itemsToShow).map((item) => (
+            <div className="card relative" key={item.id}>
+              <h2 className="hasttag">#{item.id}</h2>
+              <img src={item.image} alt="img1" />
+              <div className="card-content">
+                <h3>{item.title}</h3>
+                <p>{item.desc}</p>
+                <div className="card-icon">
+                  <p>{item.code}</p>
+                  <p>{item.demo}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="card">
-            <img src="/ss/img1.png" alt="img1" />
-            <div className="card-content">
-              <h3>Website1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quasi quo ab iure? Nulla, reiciendis.
-              </p>
-              <div className="card-icon">
-                <p>icon1</p>
-                <p>icon2</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src="/ss/img1.png" alt="img1" />
-            <div className="card-content">
-              <h3>Website1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quasi quo ab iure? Nulla, reiciendis.
-              </p>
-              <div className="card-icon">
-                <p>icon1</p>
-                <p>icon2</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src="/ss/img1.png" alt="img1" />
-            <div className="card-content">
-              <h3>Website1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quasi quo ab iure? Nulla, reiciendis.
-              </p>
-              <div className="card-icon">
-                <p>icon1</p>
-                <p>icon2</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src="/ss/img1.png" alt="img1" />
-            <div className="card-content">
-              <h3>Website1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quasi quo ab iure? Nulla, reiciendis.
-              </p>
-              <div className="card-icon">
-                <p>icon1</p>
-                <p>icon2</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src="/ss/img1.png" alt="img1" />
-            <div className="card-content">
-              <h3>Website1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                quasi quo ab iure? Nulla, reiciendis.
-              </p>
-              <div className="card-icon">
-                <p>icon1</p>
-                <p>icon2</p>
-              </div>
-            </div>
-          </div>
+          ))}
+        </div>
+        <div className="but-cont">
+          {itemsToShow < data.length && (
+            <button className="blackbutton" onClick={handleLoadMore}>
+              Load More
+            </button>
+          )}
         </div>
       </div>
     </div>

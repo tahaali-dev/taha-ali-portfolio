@@ -8,6 +8,7 @@
   align-items: center;
   overflow: hidden;
   box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+  margin: 10px 0;
 }
 .tec2-left {
   /* border: 1px solid red; */
