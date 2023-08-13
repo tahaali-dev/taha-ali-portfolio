@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Protfoliogrid.css";
+import { Link } from "react-router-dom";
 import { data } from "../../data/data";
 
 const PortfolioGrid = () => {
@@ -29,8 +30,20 @@ const PortfolioGrid = () => {
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>
                 <div className="card-icon">
-                  <p>{item.code}</p>
-                  <p>{item.demo}</p>
+                  <Link className="link" to={item.code} target="_blank">
+                    <div className="icon-set">
+                      <i className="fa-brands fa-github"></i>
+                      Code
+                    </div>
+                  </Link>
+
+                  <Link className="link" to={item.demo} target="_blank">
+                    <div className="icon-set">
+                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      Demo
+                    </div>
+                  </Link>
+                  <Link className="linkbtn btn-grad">Read More</Link>
                 </div>
               </div>
             </div>

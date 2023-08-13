@@ -115,7 +115,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <p className="menu-button" onClick={() => Menuopen()}>
+          <p className="menu-button " onClick={() => Menuopen()}>
             <i className="fa-solid fa-bars"></i>
           </p>
         </div>
