@@ -1,12 +1,16 @@
 .sticky {
   position: sticky;
   top: 0px;
-  background-color: #f1fff1;
+  /* background-color: #f1fff1; */
   /* border: 1px solid; */
   width: 100vw;
   display: flex;
   justify-content: center;
   z-index: 2;
+
+  background: #abbaab;
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+  background: linear-gradient(to right, #ffffff, #abbaab);
 }
 
 .Nav-Cont {
@@ -112,7 +116,7 @@
   width: 95vw;
   min-height: 7vh;
   /* background-color: #f6f4eb; */
-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -210,6 +214,6 @@ backdrop-filter: blur(15px);
 .mobile-menu-cont i {
   font-size: 25px;
 }
-.fa{
+.fa {
   color: whitesmoke;
 }

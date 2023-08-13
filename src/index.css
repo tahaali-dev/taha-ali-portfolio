@@ -38,7 +38,27 @@ html {
 }
 /* ------------------- */
 body {
-  background-color: #f1fff1;
+  /* background-color: #161853; */
+
+  background: #abbaab;  
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  
+  background: linear-gradient(to right, #ffffff, #abbaab); 
+
+
+  /* background: #FFEEEE;  
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
+  */
+  
+  
+  
+  
+  
+
+
+
+
+
   /* Default Font Family */
   font-family: "Lora", serif;
   display: flex;
