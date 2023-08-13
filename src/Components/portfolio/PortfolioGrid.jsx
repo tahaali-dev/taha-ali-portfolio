@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Protfoliogrid.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { data } from "../../data/data";
 
 const PortfolioGrid = () => {
+  const navigate = useNavigate();
   const intialcardload = 2;
   const itemperpage = 2;
 
@@ -12,6 +13,8 @@ const PortfolioGrid = () => {
   const handleLoadMore = () => {
     setItemsToShow(itemsToShow + itemperpage);
   };
+
+ 
 
   return (
     <div className="width-100c" id="portfolio">
@@ -43,7 +46,12 @@ const PortfolioGrid = () => {
                       Demo
                     </div>
                   </Link>
-                  <Link className="linkbtn btn-grad">Read More</Link>
+                  <Link
+                  to={`/port-single/${item.id}`}
+                    className="linkbtn btn-grad"
+                  >
+                    ReadMore
+                  </Link>
                 </div>
               </div>
             </div>
