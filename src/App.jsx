@@ -5,6 +5,7 @@ import AboutPage from "./Pages/AboutPage/AboutPage";
 import Qualification from "./Components/Qualification/Qualification";
 import Qualificationpage from "./Pages/QualificationPage/qualificationpage";
 import Singleport from "./Pages/Portfoliosinglepage/Singleport";
+import From from "./Components/contactForm/From";
 
 // ------------------Imports---------------------
 
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/qualificationmine" element={<Qualificationpage />} />
             <Route path="/port-single/:id" element={<Singleport />} />
+            <Route path="/contact-taha" element={<From/>} />
           </Route>
         </Routes>
       </BrowserRouter>

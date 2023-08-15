@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -41,8 +42,8 @@ const Hero = () => {
             creativity at every layer of the stack.
           </p>
           <div className="hero-buttons">
-            <button className="blackbutton">Get In Touch</button>
-            <button className="white-button">Resume</button>
+            <Link to="/contact-taha" className="blackbutton">Get In Touch</Link>
+            <Link className="white-button">Resume</Link>
           </div>
         </motion.div>
       </div>

@@ -22,7 +22,9 @@ const About = () => {
           <Link to="/about" className="blackbutton">
             More About Me
           </Link>
-          <Link className="white-button">Any Question</Link>
+          <Link className="white-button" to="/contact-taha">
+            Any Question
+          </Link>
         </div>
       </div>
     </div>
