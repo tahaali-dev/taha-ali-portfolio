@@ -3,28 +3,25 @@
 
 /* font-family: 'Forum', cursive;
 font-family: 'Great Vibes', cursive;
-font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif; 
 font-family: 'Bebas Neue', sans-serif;
 */
 
 /* Colors----------------------------------- */
 :root {
-  --primary: #1f3e72;
-  --secondary: rgba(255, 255, 255, 0.78);
-  --black: #131110;
-  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
-  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
-  --blue: #4066ff;
-  --lightBlue: #eeeeff;
-  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --back: #f4f4f4;
+  --dark1: #3a3535;
+  --dark2: #232020;
+  --dark3: #494b67;
+  --orange: #ff7315;
+  --skyblue: #d5f7ff;
+  --pink: #ff006c;
+  --back2: #ecebff;
 }
 /* ------------------- */
 ::-webkit-scrollbar {
   display: none;
 }
-
-
 
 html {
   scroll-behavior: smooth;
@@ -38,29 +35,10 @@ html {
 }
 /* ------------------- */
 body {
-  /* background-color: #161853; */
-
-  background: #abbaab;  
-  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  
-  background: linear-gradient(to right, #ffffff, #abbaab); 
-
-
-  /* background: #FFEEEE;  
-background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  
-background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
-  */
-  
-  
-  
-  
-  
-
-
-
-
+  background-color: #f4f4f4;
 
   /* Default Font Family */
-  font-family: "Lora", serif;
+  font-family: "Forum", cursive;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -89,7 +67,7 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE);
   padding: 8px;
   border-radius: 8px;
   border: none;
-  background-color: var(--black);
+  background-color: var(--pink);
   color: whitesmoke;
   border: 1px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -109,8 +87,8 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE);
   font-weight: 300;
   padding: 8px;
   border-radius: 8px;
-  background-color: #b1e693;
-  color: #252b48;
+  background-color: var(--dark2);
+  color: whitesmoke;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   text-decoration: none;
@@ -123,25 +101,24 @@ background: linear-gradient(to right, #DDEFBB, #FFEEEE);
   transition: 0.3s ease-out;
 }
 
-         
-         
 .btn-grad {
-  background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
+  text-transform: capitalize;
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
+  background-color: transparent;
+  color: var(--dark2);
   text-decoration: none;
+  transform: scale(1.05);
+  border: 1px dashed var(--dark2);
+  transition: 0.3s ease-out;
 }
-
-

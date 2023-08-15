@@ -1,22 +1,23 @@
 .edu-cont1 {
+  border: 1px dashed var(--dark3);
+  border-radius: 30px;
+  margin: 10px 0px;
+  height: 40vh;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35vh;
-  border-radius: 25px;
-  padding: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.158);
- margin-bottom: 15px;
 }
 .edu-cont1 h2 {
-  padding: 5px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #000000;
-  margin-bottom: 5px;
-  background-color: transparent;
   /* border: 1px solid; */
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--dark2);
+  background-color: transparent;
 }
 
 .line {
@@ -37,16 +38,14 @@
 .edu-content {
   /* border: 1px solid; */
   width: 150px;
-  height: 100px;
-  height: 100%;
+  min-height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2px;
   border-radius: 10px;
-  background-color: #eeeeee;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
+  border: 1px dashed var(--dark3);
 }
 
 .edu-content h3 {
@@ -64,22 +63,24 @@
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  background-color: #393e46;
-  color: aliceblue;
+  background-color: var(--dark2);
+  color: var(--skyblue);
   transition: 0.3s ease-in;
 }
 .round-edu:hover {
-  background-color: #f1fff1;
+  background-color: var(--back);
   transition: 0.3s ease-out;
-  color: #393e46;
+  color: var(--dark2);
 }
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
 @media (max-width: 786px) {
   .edu-cont1 {
     height: 100%;
+    min-width: 90vw;
+
   }
   .edu-cont2 {
     display: flex;

@@ -1,13 +1,12 @@
 .Tech-cont {
   height: 210px;
-  background-color: #252b48;
-  border-radius: 25px;
-  margin: 15px 0;
+  background-color: var(--dark2);
+  border-radius: 30px;
+  margin: 10px 0;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgb(0, 0, 0) 0px 5px 15px;
 }
 .Tech-cont h2 {
   font-family: "Poppins", sans-serif;
@@ -28,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 .icon-w p {
   font-family: "Poppins", sans-serif;
@@ -81,8 +80,7 @@
 @media (max-width: 786px) {
   .Tech-cont {
     height: 100%;
-    margin-top: 15px;
-    margin-bottom: 0px ;
+    min-width: 90vw;
   }
   .Tech-cont h2{
     font-size: 18px;

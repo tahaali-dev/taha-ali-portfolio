@@ -1,67 +1,62 @@
 .other-Tech-cont {
   height: 210px;
-  background-color: #331d2c;
-  border-radius: 25px;
-  margin-bottom: 10px;
+  background-color: var(--dark2);
+  border-radius: 30px;
+  margin: 10px 0px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgb(0, 0, 0) 0px 5px 15px;
-  margin: 15px 0;
 }
 .other-Tech-cont h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #f6f4eb;
 }
-.github{
-    border: 5px solid black;
-    box-shadow: gray 0px 5px 15px;
+.github {
+  border: 5px solid black;
+  box-shadow: gray 0px 5px 15px;
 }
-.graphql{
-    border: 5px solid black;
-    box-shadow: pink 0px 5px 15px;
+.graphql {
+  border: 5px solid black;
+  box-shadow: pink 0px 5px 15px;
 }
-.docker{
-    border: 5px solid black;
-    box-shadow: lightblue 0px 5px 15px;
-}
-
-.nextjs{
-    border: 5px solid black;
-    box-shadow: black 0px 5px 15px;
-}
-.npm{
-    border: 5px solid black;
-    box-shadow: orangered 0px 5px 15px;
-}
-.kubernates{
-    border: 5px solid black;
-    box-shadow: white 0px 5px 15px;
-}
-.vercel{
-    border: 5px solid black;
-    box-shadow: yellow 0px 5px 15px;
-}
-.auth{
-    height: 110px;
-    border: 5px solid black;
-    box-shadow: blue 0px 5px 15px;
-}
-.mantine{
-    border: 5px solid black;
-    box-shadow: whitesmoke 0px 5px 15px;
+.docker {
+  border: 5px solid black;
+  box-shadow: lightblue 0px 5px 15px;
 }
 
-
-
-
+.nextjs {
+  border: 5px solid black;
+  box-shadow: black 0px 5px 15px;
+}
+.npm {
+  border: 5px solid black;
+  box-shadow: orangered 0px 5px 15px;
+}
+.kubernates {
+  border: 5px solid black;
+  box-shadow: white 0px 5px 15px;
+}
+.vercel {
+  border: 5px solid black;
+  box-shadow: yellow 0px 5px 15px;
+}
+.auth {
+  height: 110px;
+  border: 5px solid black;
+  box-shadow: blue 0px 5px 15px;
+}
+.mantine {
+  border: 5px solid black;
+  box-shadow: whitesmoke 0px 5px 15px;
+}
 
 /* Mobile view */
 @media (max-width: 786px) {
   .other-Tech-cont {
     height: 100%;
+    min-width: 90vw;
   }
   .other-Tech-cont h2 {
     font-size: 18px;
