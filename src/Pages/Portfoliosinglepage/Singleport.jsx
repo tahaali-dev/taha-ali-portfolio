@@ -65,6 +65,8 @@ const Singleport = () => {
                   <img src="/logos/css.webp" alt="css" />
                   <img src="/logos/java.png" alt="javascript" />
                   <img src="/logos/react.png" alt="react" />
+                  <img src="/logos/redux.png" alt="redux" />
+                  <img src="/logos/query.png" alt="reactquery" />
                   <img src="/logos/nodejs.png" alt="nodejs" />
                   <img src="/logos/mongo.png" alt="mongodb" />
                 </div>
