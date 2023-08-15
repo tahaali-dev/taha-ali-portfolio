@@ -1,0 +1,132 @@
+.sing-port-cont {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+}
+.top-sing {
+  /* border: 1px solid; */
+  display: flex;
+}
+.top-sing .left {
+  /* border: 1px solid; */
+  max-width: 70%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.top-sing .left img {
+  max-width: 100%;
+}
+.top-sing .right {
+  /* border: 1px solid red; */
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-sing .right .card-icon {
+  /* border: 1px solid; */
+  flex-direction: column;
+  min-height: 50%;
+  min-width: 200px;
+  border-radius: 30px;
+  background-color: var(--orange);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.icon-set i {
+  font-size: 30px;
+  color: var(--dark2);
+}
+.icon-set {
+  /* border: 1px solid; */
+  font-size: 20px;
+  padding: 10px;
+  color: var(--dark2);
+}
+
+/* Middle Section */
+.middle .tech-stack {
+  /* border: 1px solid; */
+  margin: 10px 0px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.middle .tech-stack img {
+  border-radius: 50%;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.middle .content {
+  /* border: 1px solid black; */
+  text-align: justify;
+}
+.content h2 {
+  padding: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: var(--dark2);
+}
+.content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: var(--dark3);
+}
+
+.bottom {
+  border: 1px dashed var(--dark3);
+  border-radius: 30px;
+}
+.bottom h2 {
+  padding: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: var(--dark2);
+  text-align: center;
+}
+
+.hasttag {
+  width: 50px;
+  font-family: Arial, sans-serif !important;
+  color: white !important; 
+}
+
+/* Mobile View */
+@media (max-width: 786px) {
+  .sing-port-cont {
+    /* border: 1px solid black; */
+    min-width: 90vw;
+    min-height: 500px;
+    margin-top: 30px;
+  }
+  .top-sing {
+    /* border: 1px solid; */
+    flex-direction: column;
+  }
+  .top-sing .left {
+    min-width: 100%;
+    min-height: 250px;
+  }
+  .top-sing .left img {
+    min-width: 100%;
+    min-height: 250px;
+  }
+
+  .top-sing .right {
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-sing .right .card-icon {
+    /* border: 1px solid; */
+    min-height: 200px;
+    min-width: 200px;
+  }
+}

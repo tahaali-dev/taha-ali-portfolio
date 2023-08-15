@@ -22,7 +22,7 @@ export const data = [
   {
     id: "3",
     image: "/ss/img1.png",
-    title: "website1",
+    title: "website3",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit E quasi quo ab iure Nullareiciendis",
     code: "https://github.com/",
     demo: "https://assign-client.onrender.com",
@@ -31,7 +31,7 @@ export const data = [
   {
     id: "4",
     image: "/ss/img1.png",
-    title: "website1",
+    title: "website4",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit E quasi quo ab iure Nullareiciendis",
     code: "https://github.com/",
     demo: "https://assign-client.onrender.com",
@@ -40,7 +40,7 @@ export const data = [
   {
     id: "5",
     image: "/ss/img1.png",
-    title: "website1",
+    title: "website5",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit E quasi quo ab iure Nullareiciendis",
     code: "https://github.com/",
     demo: "https://assign-client.onrender.com",
