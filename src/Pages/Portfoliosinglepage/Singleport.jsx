@@ -8,7 +8,9 @@ const Singleport = () => {
   const { id } = useParams();
   console.log();
 
- 
+  useEffect(() => {
+    scrollToSection("top", 70);
+  }, []);
 
   // load more Function
   const intialcardload = 2;
@@ -59,11 +61,12 @@ const Singleport = () => {
               {/* middle Section */}
               <div className="middle">
                 <div className="tech-stack">
-                  <img src="/logos/html.webp" alt="" />
-                  <img src="/logos/html.webp" alt="" />
-                  <img src="/logos/html.webp" alt="" />
-                  <img src="/logos/html.webp" alt="" />
-                  <img src="/logos/html.webp" alt="" />
+                  <img src="/logos/html.webp" alt="html" />
+                  <img src="/logos/css.webp" alt="css" />
+                  <img src="/logos/java.png" alt="javascript" />
+                  <img src="/logos/react.png" alt="react" />
+                  <img src="/logos/nodejs.png" alt="nodejs" />
+                  <img src="/logos/mongo.png" alt="mongodb" />
                 </div>
 
                 <div className="content">

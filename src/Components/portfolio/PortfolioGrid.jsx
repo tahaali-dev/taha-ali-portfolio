@@ -14,8 +14,6 @@ const PortfolioGrid = () => {
     setItemsToShow(itemsToShow + itemperpage);
   };
 
- 
-
   return (
     <div className="width-100c" id="portfolio">
       <div className="width-85 port-grid-cont ">
@@ -47,8 +45,9 @@ const PortfolioGrid = () => {
                     </div>
                   </Link>
                   <Link
-                  to={`/port-single/${item.id}`}
+                    to={`/port-single/${item.id}`}
                     className="linkbtn btn-grad"
+                    onClick={() => scrollToSection("top", 70)}
                   >
                     ReadMore
                   </Link>
@@ -70,3 +69,12 @@ const PortfolioGrid = () => {
 };
 
 export default PortfolioGrid;
+
+const scrollToSection = (id, offset = 0) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const topPosition =
+      element.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({ top: topPosition - offset, behavior: "smooth" });
+  }
+};
