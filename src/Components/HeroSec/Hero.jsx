@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="Hero-cont " id="herosection">
-      <div className="Common-width width-85" >
+      <div className="Common-width width-85">
         <div className="image">
           <motion.div
             initial={{ x: "-3rem", opacity: 0 }}
@@ -42,8 +42,13 @@ const Hero = () => {
             creativity at every layer of the stack.
           </p>
           <div className="hero-buttons">
-            <Link to="/contact-taha" className="blackbutton">Get In Touch</Link>
-            <Link className="white-button">Resume</Link>
+            <Link to="/contact-taha" className="blackbutton">
+              Get In Touch
+            </Link>
+
+            <a href="/testpdf.pdf" download className="white-button">
+              Resume
+            </a>
           </div>
         </motion.div>
       </div>

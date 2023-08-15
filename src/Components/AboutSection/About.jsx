@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="width-100c" id="aboutsection">
       <div className="width-85 about-cont ">
-        <h2>About Myself🧑</h2>
+        <h2>Taha's Bio 🧑</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
           mollitia ab, dolor provident numquam doloribus sunt optio, veniam non
