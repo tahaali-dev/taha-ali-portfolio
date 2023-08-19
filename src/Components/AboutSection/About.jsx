@@ -16,10 +16,13 @@ const About = () => {
           eaque dolor necessitatibus molestiae. Provident? Lorem ipsum dolor sit
           amet consectetur adipisicing elit. Repudiandae exercitationem quis
           laborum odio magni. Saepe, ullam assumenda. Iusto, assumenda! Adipisci
-          iusto optio quaerat enim, molestiae{" "}
+          iusto optio quaerat enim, molestiae
         </p>
         <div className="hero-buttons">
-          <Link to="/about" className="blackbutton">
+          <Link
+            to="/about"
+            className="blackbutton"
+          >
             More About Me
           </Link>
           <Link className="white-button" to="/contact-taha">
@@ -32,3 +35,4 @@ const About = () => {
 };
 
 export default About;
+

@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import "./aboutpage.css";
+import { useEffect } from "react";
 
 const AboutPage = () => {
+  useEffect(() => {
+    scrollToSection("topabout", 70);
+  }, []);
+
   return (
-    <div className="width-100c">
+    <div className="width-100c" id="topabout">
       <div className="width-85 aboutpage-cont">
         <div className="top-about">
           <div className="left">
@@ -102,16 +107,23 @@ const AboutPage = () => {
             aperiam dignissimos.
           </p>
           <div className="button-cont">
-          <Link to="/contact-taha" className="blackbutton ">
-          Get In Touch
-        </Link>
+            <Link to="/contact-taha" className="blackbutton ">
+              Get In Touch
+            </Link>
+          </div>
         </div>
-
-        </div>
-       
       </div>
     </div>
   );
 };
 
 export default AboutPage;
+
+const scrollToSection = (id, offset = 0) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const topPosition =
+      element.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({ top: topPosition - offset, behavior: "smooth" });
+  }
+};
