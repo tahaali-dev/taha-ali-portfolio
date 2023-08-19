@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import TechSec from "../../Components/TechSect/TechSec";
+import Tech2 from "../../Components/TechSect/Tech2";
+import OtherTechs from "../../Components/TechSect/otherTechs";
 
 const Skills = () => {
   return (
-    <div>
-      Skills Comming soon
+    <div className="width-100c">
+      <div className="width-80">
+        <TechSec />
+        <Tech2 />
+        <OtherTechs />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

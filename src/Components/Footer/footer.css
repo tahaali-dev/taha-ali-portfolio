@@ -1,0 +1,32 @@
+.back-footer{
+    background-color: var(--orange);
+    min-height: 100px;
+    margin-top: 10px;
+}
+
+
+.footer-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.footer-cont h5{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    color: var(--dark2);
+    font-weight: 400;
+}
+
+.back-midd{
+    background-color: var(--back2);
+}
+
+
+
+
+@media(max-width:786px){
+    .back-footer{
+        margin-bottom: 60px !important;
+    }
+}

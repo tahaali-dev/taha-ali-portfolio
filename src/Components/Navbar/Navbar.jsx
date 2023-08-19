@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import "./Navbar.css";
 import HomePage from "../../Pages/HomePage/HomePage";
+import { color } from "framer-motion";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("mobile-close");
@@ -30,17 +31,44 @@ const Navbar = () => {
           <div className="nav-middle">
             <ul>
               <li>
-                <i className="fa-brands fa-square-github"></i>
+                <Link to="https://github.com/devtahajs" target="_blank">
+                  <i
+                    className="fa-brands fa-github"
+                    style={{ color: "#232020" }}
+                  ></i>
+                </Link>
               </li>
               <li>
-                <i className="fa-brands fa-linkedin"></i>
+                <Link
+                  to="https://www.linkedin.com/in/taha-ali-abb46b289"
+                  target="_blank"
+                >
+                  <i
+                    className="fa-brands fa-linkedin-in"
+                    style={{ color: "blue" }}
+                  ></i>
+                </Link>
               </li>
               <li>
-                <i className="fa-brands fa-square-instagram"></i>
+                <Link
+                  to="https://www.instagram.com/taha_ali.in/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+                  target="_blank"
+                >
+                  <i
+                    className="fa-brands fa-instagram"
+                    style={{ color: "#ff006c" }}
+                  ></i>
+                </Link>
               </li>
-              <li>
-                <i className="fa-brands fa-square-twitter"></i>
-              </li>
+
+              {/* <li>
+                <Link to="" target="_blank">
+                  <i
+                    className="fa-brands fa-twitter"
+                    style={{ color: "blue" }}
+                  ></i>
+                </Link>
+              </li> */}
             </ul>
           </div>
 
@@ -54,15 +82,11 @@ const Navbar = () => {
                 Main
               </Link>
 
-              <Link to="/taha-skills" className="link">
-                Skills
+              <Link to="/about" className="link">
+                About Me
               </Link>
 
-              <Link
-                to="/qualificationmine"
-                className="link"
-               
-              >
+              <Link to="/qualificationmine" className="link">
                 Qualification
               </Link>
 
@@ -70,11 +94,13 @@ const Navbar = () => {
                 Projects
               </Link>
 
-              <Link to="/about" className="link">
-                About Me
+              <Link to="/taha-skills" className="link">
+                Skills
               </Link>
             </ul>
-            <button className="blackbutton">Contact</button>
+            <Link to="/contact-taha" className="blackbutton">
+              Contact
+            </Link>
           </div>
         </div>
       </div>
@@ -88,17 +114,43 @@ const Navbar = () => {
           <div className="mobile-middle">
             <ul>
               <li>
-                <i className="fa-brands fa-square-github"></i>
+                <Link to="https://github.com/devtahajs" target="_blank">
+                  <i
+                    className="fa-brands fa-github"
+                    style={{ color: "#232020" }}
+                  ></i>
+                </Link>
               </li>
               <li>
-                <i className="fa-brands fa-linkedin"></i>
+                <Link
+                  to="https://www.linkedin.com/in/taha-ali-abb46b289"
+                  target="_blank"
+                >
+                  <i
+                    className="fa-brands fa-linkedin-in"
+                    style={{ color: "blue" }}
+                  ></i>
+                </Link>
               </li>
               <li>
-                <i className="fa-brands fa-square-instagram"></i>
+                <Link
+                  to="https://www.instagram.com/taha_ali.in/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+                  target="_blank"
+                >
+                  <i
+                    className="fa-brands fa-instagram"
+                    style={{ color: "#ff006c" }}
+                  ></i>
+                </Link>
               </li>
-              <li>
-                <i className="fa-brands fa-square-twitter"></i>
-              </li>
+              {/* <li>
+                <Link to="" target="_blank">
+                  <i
+                    className="fa-brands fa-twitter"
+                    style={{ color: "blue" }}
+                  ></i>
+                </Link>
+              </li> */}
             </ul>
           </div>
 
@@ -118,23 +170,15 @@ const Navbar = () => {
               <i className="fa-solid fa-house fa"></i>
             </Link>
 
-            <Link
-              className="link"
-              to="/taha-skills"
-            >
+            <Link className="link" to="/taha-skills">
               <i className="fa-solid fa-pen-clip fa"></i>
             </Link>
 
-            <Link
-              className="link"
-              to="/qualificationmine"
-            >
+            <Link className="link" to="/qualificationmine">
               <i className="fa-solid fa-graduation-cap fa"></i>
             </Link>
 
-            <Link className="link"
-            to="/taha-projects"
-            >
+            <Link className="link" to="/taha-projects">
               <i className="fa-solid fa-list-check fa"></i>
             </Link>
 
