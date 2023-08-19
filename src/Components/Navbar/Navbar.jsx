@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useRef, useEffect } from "react";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import "./Navbar.css";
 import HomePage from "../../Pages/HomePage/HomePage";
 
@@ -54,36 +54,23 @@ const Navbar = () => {
                 Main
               </Link>
 
-              <Link
-                className="link"
-                onClick={() => scrollToSection("skillssection", 70)}
-              >
+              <Link to="/taha-skills" className="link">
                 Skills
               </Link>
 
               <Link
+                to="/qualificationmine"
                 className="link"
-                onClick={() => scrollToSection("edusection", 70)}
+               
               >
                 Qualification
               </Link>
 
-              <Link
-                onClick={() => scrollToSection("portfolio", 70)}
-                className="link"
-              >
+              <Link to="/taha-projects" className="link">
                 Projects
               </Link>
 
-              <Link
-                onClick={
-                  <HomePage/>
-                    ? () => scrollToSection("aboutsection", 70)
-                    : to = "/about"
-                }
-                
-                className="link"
-              >
+              <Link to="/about" className="link">
                 About Me
               </Link>
             </ul>
@@ -133,26 +120,25 @@ const Navbar = () => {
 
             <Link
               className="link"
-              onClick={() => scrollToSection("skillssection", 70)}
+              to="/taha-skills"
             >
               <i className="fa-solid fa-pen-clip fa"></i>
             </Link>
 
             <Link
               className="link"
-              onClick={() => scrollToSection("edusection", 70)}
+              to="/qualificationmine"
             >
               <i className="fa-solid fa-graduation-cap fa"></i>
             </Link>
 
-            <Link className="link">
+            <Link className="link"
+            to="/taha-projects"
+            >
               <i className="fa-solid fa-list-check fa"></i>
             </Link>
 
-            <Link
-              className="link"
-              onClick={() => scrollToSection("aboutsection")}
-            >
+            <Link to="/about" className="link">
               <i className="fa-solid fa-user fa"></i>
             </Link>
           </div>
