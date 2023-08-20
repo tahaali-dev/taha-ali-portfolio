@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 // ------------------Imports----------------------------
 export const apiUrl = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://pw-server-60hj.onrender.com",
 });
 
 //Contact Form
