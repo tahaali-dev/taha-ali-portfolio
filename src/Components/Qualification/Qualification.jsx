@@ -25,12 +25,12 @@ const Qualification = () => {
             <p>By Own In 3Months</p>
           </div>
           <span className="line"></span>
-        <div className="edu-content">
-          <h3>BackEnd</h3>
-          <p>Udemy,Infosys (springboard)</p>
-          <p>By Own In 4Months</p>
-        </div>
-        <span className="line"></span>
+          <div className="edu-content">
+            <h3>BackEnd</h3>
+            <p>Udemy,Infosys (springboard)</p>
+            <p>By Own In 4Months</p>
+          </div>
+          <span className="line"></span>
           <Link className="link" to="/qualificationmine">
             <div className="edu-content round-edu">
               <p>More About My Journey</p>

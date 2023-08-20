@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./qualifi.css";
+import { Link } from "react-router-dom";
 
 const Qualificationpage = () => {
   useEffect(() => {
@@ -9,68 +10,144 @@ const Qualificationpage = () => {
   return (
     <div className="width-100c" id="topQuali">
       <div className="width-8 edu-cont3">
+        <span className="line2"></span>
+
         <div className="edu-content1 ">
-          <h3>School 🚌</h3>
-          <p>10th-12th from Mp-Board </p>
-          <p>Badri H.S.S (Indore)</p>
-        </div>
-        <span className="line2"></span>
-
-        <div className="edu-content1">
-          <h3>College 🏫</h3>
-          <p>B.C.A (2nd Year Dropout) </p>
-          <p>M.I.S.T (Indore)</p>
-        </div>
-        <span className="line2"></span>
-
-        <div className="edu-content1">
-          <h3>FrontEnd 🖥️</h3>
-          <p>Udemy(Dr.Angela) &other Resources</p>
-          <p>By Own In 3Months</p>
-        </div>
-        <span className="line2"></span>
-
-        <div className="edu-content1">
-          <h3>BackEnd 🗄️</h3>
+          <h3>School-Where My Journey Began 🎒</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            labore quis voluptatem sed. Provident soluta ex sapiente enim?
-            Natus, illum. Reprehenderit, consectetur! Aspernatur asperiores
-            provident sint amet eius. Reprehenderit cum quidem perspiciatis
-            nobis eum quis. Atque, pariatur ipsum molestias corporis ab facilis
-            aliquid optio deserunt, asperiores eos dolorem assumenda! Assumenda
-            enim nulla ea laboriosam optio perspiciatis fugiat quod sit dolorem
-            vel! Asperiores nemo quod magni, eligendi rerum eius excepturi enim
-            earum, minima doloremque quidem, sequi reprehenderit! Et reiciendis
-            quo laboriosam libero asperiores. Rem, aperiam quam libero neque est
-            incidunt similique commodi esse officiis voluptas repudiandae
-            ratione! Labore sit odit non corrupti voluptates nulla ex facere
-            illum. Harum nisi quo vitae beatae quibusdam laudantium illo,
-            corporis officiis amet dicta, pariatur sunt dignissimos velit
-            voluptas. Asperiores hic numquam dignissimos quos earum itaque
-            tenetur quas assumenda nobis odit expedita sit neque cum rem, animi
-            officiis nemo aliquid ex! Tenetur, deleniti. Atque, voluptate.
-            Dolorem vel laudantium provident iste nulla consequuntur. Fuga,
-            tenetur beatae. Incidunt unde vitae, dolore accusantium ea at omnis
-            sit dignissimos quis ducimus ipsam sed necessitatibus, nulla qui
-            tempora? Eligendi placeat cupiditate earum doloremque cum, expedita
-            itaque asperiores nisi! Ducimus porro odio iure magnam velit
-            temporibus natus, quisquam illum debitis. Amet, beatae nisi ad ex
-            soluta nobis adipisci sunt quidem minima, hic repellendus provident
-            culpa suscipit porro sed id vitae numquam inventore illum. Corporis
-            quasi pariatur corrupti, nemo atque nesciunt error veritatis,
-            repudiandae dolores vitae rerum dignissimos fuga est at enim earum
-            similique quae fugiat nobis. Obcaecati, nostrum. Non earum
-            laudantium provident!
+            I started my education at the Basic Community School in Indore, and
+            I completed both my 10th and 12th grades there. It's like the
+            beginning of my education story.My teachers were really awesome.
+            They didn't just teach subjects; they talked about life and jobs
+            too. It was like getting extra wisdom with my lessons.Thinking back,
+            my school days were a mix of learning, making friends, and growing
+            up. I keep those memories close.
+            <hr />
+            As I look ahead, there's a quote I like: "Education is the passport
+            to the future, for tomorrow belongs to those who prepare for it
+            today." - Malcolm X
           </p>
         </div>
         <span className="line2"></span>
 
         <div className="edu-content1">
-          <h3>Still Learing New things</h3>
-          <p>I will Update Soon</p>
+          <h3>College-Finding My Way 🎓</h3>
+          <p>
+            After school, I went to a college called Malwa Institute of Science
+            and Technology in Indore. I started with BCA.In my second year, I
+            discovered something I loved – web development. It was like solving
+            a puzzle I didn't know I had. I learned from seniors and the
+            internet.Money troubles led me to leave college. But I didn't give
+            up on web development. I learned about making websites look great
+            and work smoothly.College taught me to follow my dreams, and now I'm
+            a web developer, making digital magic happen.
+            <hr />
+            Looking back, I remember this quote: "The only limit to our
+            realization of tomorrow will be our doubts of today." - Franklin D.
+            Roosevelt
+          </p>
         </div>
         <span className="line2"></span>
+
+        <div className="edu-content1">
+          <h3>Frontend-Crafting web Front 🌐</h3>
+          <p>
+            🎬 Learning from the Web: I began my web development journey with
+            YouTube and online resources like CodeWithHarry and W3Schools. It's
+            like learning to build with the help of the internet.
+            <br />
+            💻 The HTML and CSS Beginnings: My first step was to master HTML and
+            CSS, the building blocks of web pages. YouTube tutorials showed me
+            the ropes and helped me create awesome layouts.
+            <br />
+            📜 Embracing JavaScript: To add life to my creations, I dived into
+            JavaScript. It's a versatile language used for both frontend and
+            backend. I learned from CodeWithHarry and other resources, turning
+            concepts into interactive elements.
+            <br />
+            🛤️ Finding Clarity with Udemy: A bit confused about my path, I took
+            a Udemy course that laid out a clear roadmap for full stack web
+            development. Dr. Angela, one of Udemy's top creators, guided me
+            through a treasure trove of knowledge.
+            <br />
+            ⚛️ Mastering React and More: The Udemy course introduced me to
+            React, Bootstrap, advanced CSS properties, and handy React
+            libraries. It was like adding superpowers to my frontend arsenal.
+            <br />
+            📚 Beyond Udemy: Dr. Angela's guidance aside, I expanded my horizons
+            with Infosys Springboard's full stack web development course. It was
+            a deep dive into concepts that made me a well-rounded developer.
+            <br />
+            🌟 The Finishing Touch with Tailwind: To speed up styling, I
+            embraced Tailwind. It's like a magic wand for crafting sleek designs
+            in no time.
+            <br />
+            🔮 State Management and API Handling: For state management, I
+            embraced Redux Toolkit, a powerful tool. And for handling APIs, I
+            turned to React Query, which made data fetching and management a
+            breeze.
+            <hr />
+            As I reflect on my frontend journey, I'm reminded of this quote:
+            "The expert in anything was once a beginner." - Helen Hayes
+          </p>
+        </div>
+        <span className="line2"></span>
+
+        <div className="edu-content1">
+          <h3>Into the Backend World 🛠️</h3>
+          <p>
+            🚀 Getting Started: I jumped into backend stuff using npm, Node.js,
+            and Express. Dr. Angela's Udemy course was like a guide on this
+            exciting journey.
+            <br />
+            🌐 Learning the Tech: I tackled APIs, routes, and controllers. It
+            was like learning the buttons that make websites work.
+            <br />
+            📡 Making Things and Testing: I made APIs and tried them out using
+            Postman. It was like seeing my digital creations come to life.
+            <br />
+            💽 Playing with Databases: I used MongoDB and later tried MySQL. It
+            was like learning the secret code to store and manage information.
+            <br />
+            🔒 Adding Protection: I added security with JWT and bcrypt. It was
+            like giving my digital creations strong locks.
+            <br />
+            🚀 Bootcamp Adventures: I also joined bootcamps like Devtown's 7-day
+            backend bootcamp and Microsoft Learn Student Ambassador boot camp.
+            These cool experiences added to my journey.
+            <br />
+            ⚙️ Building the Final Backend: Step by step, I built a full backend
+            system. It's like turning ideas into real digital things.
+            <br />
+            🔗 Bringing It All Together: Combining backend with frontend felt
+            like putting together a puzzle. Websites started to work like magic!
+            <hr />
+            As I think back on my backend journey, I'm reminded of this saying:
+            "Today's actions shape tomorrow." - Mahatma Gandhi
+          </p>
+        </div>
+        <span className="line2"></span>
+
+        <div className="edu-content1">
+          <h3>Still Learing New things 🚀</h3>
+          <p>
+            🐳 Docker and Kubernetes: I've delved into containerization and
+            orchestration with Docker and Kubernetes. It's like packaging and
+            managing digital worlds, making deployment smoother.
+            <br />
+            ☁️ Amazon Web Services (AWS): I'm diving into the cloud with AWS,
+            learning how to harness its power to create scalable and reliable
+            applications. It's like having a toolbox full of resources.
+            <hr />
+            The path of discovery is infinite, and I'm excited to see where my
+            insatiable curiosity takes me next."
+          </p>
+        </div>
+        <span className="line2"></span>
+
+        <Link to="/certs-sec" className="certisect">
+          <h2>Glimpse into My Certifications🔍</h2>
+        </Link>
       </div>
     </div>
   );

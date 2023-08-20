@@ -36,6 +36,9 @@
 .top-about .left p span {
   color: var(--pink);
 }
+hr{
+  margin: 15px 0px;
+}
 
 .top-about .right {
   /* border: 1px solid red; */
@@ -54,25 +57,25 @@
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.middle-about h2{
-    font-family: "Forum", cursive;
+.middle-about h2 {
+  font-family: "Forum", cursive;
   font-size: 25px;
   color: var(--orange);
 }
 
-.middle-about p{
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    color: var(--dark2);
+.middle-about p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: var(--dark2);
 }
 
-.button-cont{
-/* border: 1px solid; */
-height: 70px;
-display: flex;
-justify-content: end;
-align-items: center;
+.button-cont {
+  /* border: 1px solid; */
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 @media (max-width: 786px) {

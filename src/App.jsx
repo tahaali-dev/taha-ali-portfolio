@@ -12,6 +12,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Certificatepage from "./Pages/certificatepage/Certificatepage";
 
 // ------------------Imports---------------------
 
@@ -34,6 +35,7 @@ const App = () => {
               <Route path="/taha-projects" element={<ProjectPage />} />
               <Route path="/port-single/:id" element={<Singleport />} />
               <Route path="/contact-taha" element={<From />} />
+              <Route path="/certs-sec" element={<Certificatepage />} />
             </Route>
           </Routes>
         </BrowserRouter>

@@ -22,8 +22,8 @@
   color: var(--orange);
 }
 .edu-content1 p {
-  font-size: 16px;
-  width: 100;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
   text-align: justify;
   color: var(--dark2);
 }
@@ -34,6 +34,43 @@
   border-bottom: none;
   width: 0;
 }
+
+hr{
+  margin: 15px 0px;
+}
+
+.certisect{
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 30px;
+  background-color: var(--pink);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ text-decoration: none;
+
+}
+.certisect:hover{
+  background-color: transparent;
+ border: 1px dashed var(--dark2);
+ color: var(--dark2);
+ transition: 0.3s ease-in-out;
+
+}
+
+.certisect h2{
+  text-align: center;
+  font-weight: 300;
+  color: var(--back2);
+  transition: 0.3s ease-in-out;
+}
+.certisect h2:hover{
+  color: var(--dark2);
+  transition: 0.3s ease-in-out;
+}
+
 
 
 @media(max-width:786px){
