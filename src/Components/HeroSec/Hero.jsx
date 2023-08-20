@@ -32,18 +32,19 @@ const Hero = () => {
         >
           <h4>End-to-End Developer</h4>
           <h2>
-            Navigating Both Ends of the Web: Full Stack😎Wonders
+            Full-Stack Journey
             <span>Unveiled</span>
+            Weaving Web Magic with Fresh Hands.😎
           </h2>
           <p>
-            I'm a full stack web developer charting new territories, crafting
-            seamless user experiences, and engineering robust systems. Join me
-            on this journey of innovation and witness the magic where code meets
-            creativity at every layer of the stack.
+            Hi, I'm Taha Ali, a web developer specializing in MERN technologies.
+            I'm passionate about crafting dynamic web solutions that seamlessly
+            integrate the power of these tools. Let's work together to turn
+            ideas into interactive realities using the versatile MERN stack.
           </p>
           <div className="hero-buttons">
             <Link to="/contact-taha" className="blackbutton">
-              Get In Touch
+              Reach Out
             </Link>
 
             <a href="/testpdf.pdf" download className="white-button">
