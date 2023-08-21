@@ -22,7 +22,7 @@
 @media (max-width: 786px) {
   .sct-cont {
     bottom: 80px;
-    right: 170px;
+    right: 20px;
     backdrop-filter: blur(15px);
     background-color: transparent;
 
