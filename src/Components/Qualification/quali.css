@@ -76,6 +76,11 @@
   text-decoration: none;
 }
 
+hr{
+  margin: 15px 0px;
+  width: 100%;
+}
+
 @media (max-width: 786px) {
   .edu-cont1 {
     height: 100%;

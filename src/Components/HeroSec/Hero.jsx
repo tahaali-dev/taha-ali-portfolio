@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="Hero-cont " id="herosection">
+    <div className="Hero-cont " id="top">
       <div className="Common-width width-85">
         <div className="image">
           <motion.div

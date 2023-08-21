@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Qualificationpage = () => {
   useEffect(() => {
-    scrollToSection("topQuali", 70);
+    scrollToSection("top", 70);
   }, []);
 
   return (
-    <div className="width-100c" id="topQuali">
+    <div className="width-100c" id="top">
       <div className="width-8 edu-cont3">
         <span className="line2"></span>
 
@@ -22,7 +22,9 @@ const Qualificationpage = () => {
             too. It was like getting extra wisdom with my lessons.Thinking back,
             my school days were a mix of learning, making friends, and growing
             up. I keep those memories close.
-            <hr />
+          </p>
+          <hr />
+          <p>
             As I look ahead, there's a quote I like: "Education is the passport
             to the future, for tomorrow belongs to those who prepare for it
             today." - Malcolm X
@@ -41,7 +43,9 @@ const Qualificationpage = () => {
             up on web development. I learned about making websites look great
             and work smoothly.College taught me to follow my dreams, and now I'm
             a web developer, making digital magic happen.
-            <hr />
+          </p>
+          <hr />
+          <p>
             Looking back, I remember this quote: "The only limit to our
             realization of tomorrow will be our doubts of today." - Franklin D.
             Roosevelt
@@ -86,7 +90,9 @@ const Qualificationpage = () => {
             embraced Redux Toolkit, a powerful tool. And for handling APIs, I
             turned to React Query, which made data fetching and management a
             breeze.
-            <hr />
+          </p>
+          <hr />
+          <p>
             As I reflect on my frontend journey, I'm reminded of this quote:
             "The expert in anything was once a beginner." - Helen Hayes
           </p>
@@ -121,7 +127,9 @@ const Qualificationpage = () => {
             <br />
             🔗 Bringing It All Together: Combining backend with frontend felt
             like putting together a puzzle. Websites started to work like magic!
-            <hr />
+          </p>
+          <hr />
+          <p>
             As I think back on my backend journey, I'm reminded of this saying:
             "Today's actions shape tomorrow." - Mahatma Gandhi
           </p>
@@ -138,10 +146,12 @@ const Qualificationpage = () => {
             ☁️ Amazon Web Services (AWS): I'm diving into the cloud with AWS,
             learning how to harness its power to create scalable and reliable
             applications. It's like having a toolbox full of resources.
+            </p>
             <hr />
+            <p>
             The path of discovery is infinite, and I'm excited to see where my
             insatiable curiosity takes me next."
-          </p>
+            </p>
         </div>
         <span className="line2"></span>
 

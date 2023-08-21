@@ -77,7 +77,7 @@ const Navbar = () => {
               <Link
                 to="/"
                 className="link"
-                onClick={() => scrollToSection("herosection", 70)}
+                onClick={() => scrollToSection("top", 70)}
               >
                 Main
               </Link>
@@ -165,7 +165,7 @@ const Navbar = () => {
             <Link
               to="/"
               className="link"
-              onClick={() => scrollToSection("herosection", 70)}
+              onClick={() => scrollToSection("top", 70)}
             >
               <i className="fa-solid fa-house fa"></i>
             </Link>

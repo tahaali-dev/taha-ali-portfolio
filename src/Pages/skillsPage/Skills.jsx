@@ -5,7 +5,7 @@ import OtherTechs from "../../Components/TechSect/otherTechs";
 
 const Skills = () => {
   return (
-    <div className="width-100c">
+    <div className="width-100c" id="top">
       <div className="width-80">
         <TechSec />
         <Tech2 />

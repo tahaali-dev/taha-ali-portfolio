@@ -26,7 +26,7 @@ const From = () => {
         color: "#fff",
       },
     });
-    navigate("/");
+    navigate("/"); 
   };
 
   return (

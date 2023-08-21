@@ -4,11 +4,11 @@ import { useEffect } from "react";
 
 const AboutPage = () => {
   useEffect(() => {
-    scrollToSection("topabout", 70);
+    scrollToSection("top", 70);
   }, []);
 
   return (
-    <div className="width-100c" id="topabout">
+    <div className="width-100c" id="top">
       <div className="width-85 aboutpage-cont">
         <div className="top-about">
           <div className="left">
@@ -89,23 +89,33 @@ const AboutPage = () => {
             🌐 Exploring New Digital Realms: I love making websites, especially
             when I get to explore things I don't know yet. It's like solving a
             puzzle and creating a whole new online world.
-            <hr />
+          </p>
+          <hr />
+          <p>
             🤖 Chatting with AI Friends: Ever tried talking to AI chatbots? It's
             pretty cool! I enjoy chatting with them, like ChatGPT. It's amazing
             how they can have fun conversations with us.
-            <hr />
+          </p>
+          <hr />
+          <p>
             💻 Having Fun with Code: I play around with JavaScript, CSS, and
             React. It's like using digital tools to make websites look awesome
             and work smoothly. It's like crafting in the digital world!
-            <hr />
+          </p>
+          <hr />
+          <p>
             📚 Book Adventures: When I'm not online, I'm into books. I enjoy all
             sorts of reads, from fiction to techie stuff. Books take me to
             different worlds and inspire me.
-            <hr />
+          </p>
+          <hr />
+          <p>
             👀 Checking Out Others' Work: I love looking at what other people
             have created with code. It's like exploring different digital
             masterpieces. It helps me learn new tricks and styles.
-            <hr />
+          </p>
+          <hr />
+          <p>
             These are the things that make me smile and keep me curious. They're
             like the colorful pieces of a puzzle that make up my world!"
           </p>
@@ -118,19 +128,17 @@ const AboutPage = () => {
             -Being Creative: I aim to make websites that blow people's minds. I
             want to create stuff that's both useful and super cool. 🎨✨
             <br />
-            -Helping Others:  I'd love to teach others what I've
-            learned. I want to help new developers get started on their journey.
-            📚🤝
+            -Helping Others: I'd love to teach others what I've learned. I want
+            to help new developers get started on their journey. 📚🤝
             <br />
             -Teamwork: I dream of working with other smart people. Together, we
             can make something amazing. 👥🤗
             <br />
-            -New Tech : I'm excited to learn about new tech stuff. The
-            tech world changes a lot, and I want to keep up with the latest.
-            🌐🔍
+            -New Tech : I'm excited to learn about new tech stuff. The tech
+            world changes a lot, and I want to keep up with the latest. 🌐🔍
             <br />
-            -Impactful Stuff: I want to build things that actually
-            matter. I want it to make a positive difference. 🌟🌍
+            -Impactful Stuff: I want to build things that actually matter. I
+            want it to make a positive difference. 🌟🌍
             <br />
             -Always Learning: There's so much to learn, and I'm up for the
             challenge. I'll keep learning, growing, and getting better. 🧠📈
