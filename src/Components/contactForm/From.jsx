@@ -3,6 +3,7 @@ import "./From.css";
 import { ContactFromfill } from "../../Utils/Api";
 import { useMutation } from "react-query";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
 const From = () => {
   const navigate = useNavigate();
@@ -17,6 +18,14 @@ const From = () => {
   const HandleSubmit = (e) => {
     e.preventDefault();
     mutate({ name, email, desc, question });
+    toast.success("Thanks For Contacting Me ", {
+      icon: "❤️",
+      style: {
+        borderRadius: "10px",
+        background: "var(--dark2)",
+        color: "#fff",
+      },
+    });
     navigate("/");
   };
 

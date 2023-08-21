@@ -10,9 +10,8 @@ import Skills from "./Pages/skillsPage/Skills";
 import ProjectPage from "./Pages/ProjectsPage/ProjectPage";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import Certificatepage from "./Pages/certificatepage/Certificatepage";
+import { Toaster } from "react-hot-toast";
 
 // ------------------Imports---------------------
 
@@ -39,18 +38,7 @@ const App = () => {
             </Route>
           </Routes>
         </BrowserRouter>
-        <ToastContainer
-          position="bottom-center"
-          autoClose={5}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="colored"
-        />
+        <Toaster/>
         <ReactQueryDevtools initialOpen={false} />
       </QueryClientProvider>
     </>
