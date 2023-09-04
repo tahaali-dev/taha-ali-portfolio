@@ -4,10 +4,10 @@ export const data = [
   {
     id: "1",
     image: "/ss/thumb1.png",
-    title: "website1",
+    title: "Taskify- A Student:Teacher Web",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit E quasi quo ab iure Nullareiciendis",
-    code: "https://github.com/",
-    demo: "https://portfolio-client-05x9.onrender.com",
+    code: "https://github.com/devtahajs/Taskifyclient/tree/main",
+    demo: "https://taskify-client.onrender.com",
     date: "today",
   },
   {
