@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="https://www.linkedin.com/in/taha-ali-abb46b289"
+                  to="https://www.linkedin.com/in/taha-ali-67a06a268/"
                   target="_blank"
                 >
                   <i
@@ -123,7 +123,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="https://www.linkedin.com/in/taha-ali-abb46b289"
+                  to="https://www.linkedin.com/in/taha-ali-67a06a268/"
                   target="_blank"
                 >
                   <i
