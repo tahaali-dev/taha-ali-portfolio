@@ -1,4 +1,4 @@
-import image1 from "/ss/img1.png";
+
 
 export const data = [
   {
