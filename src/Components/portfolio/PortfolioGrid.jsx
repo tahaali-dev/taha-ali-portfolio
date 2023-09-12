@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import "./Protfoliogrid.css";
 import { Link, useNavigate } from "react-router-dom";
+import { CgMoreVerticalR } from "react-icons/cg";
+import { FaGitSquare } from "react-icons/fa";
+import { AiFillEye } from "react-icons/ai";
 import { data } from "../../data/data";
+//Imports-----------------------------------
 
 const PortfolioGrid = () => {
   const navigate = useNavigate();
@@ -30,28 +34,38 @@ const PortfolioGrid = () => {
               <div className="card-content">
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>
+
+
                 <div className="card-icon">
                   <Link className="link" to={item.code} target="_blank">
                     <div className="icon-set">
-                      <i className="fa-brands fa-github"></i>
-                      Code
+                    <i className="padd-r"><FaGitSquare /></i>
                     </div>
                   </Link>
 
+
+
                   <Link className="link" to={item.demo} target="_blank">
                     <div className="icon-set">
-                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                      Demo
+                    <i className="padd-r"><AiFillEye /></i>
                     </div>
                   </Link>
+
+
                   <Link
                     to={`/port-single/${item.id}`}
-                    className="linkbtn btn-grad"
+                    className="link "
                     onClick={() => scrollToSection("top", 70)}
                   >
-                    ReadMore
+                    <div className="icon-set">
+                    <i className="padd-r"><CgMoreVerticalR /></i>
+                    </div>
                   </Link>
+
+
                 </div>
+
+
               </div>
             </div>
           ))}

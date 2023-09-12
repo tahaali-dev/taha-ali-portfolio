@@ -74,45 +74,27 @@ const Singleport = () => {
                 <div className="content">
                   <h2>{item.title}</h2>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptas possimus ipsa magni in quae, itaque corrupti
-                    blanditiis et sed odio quidem vel ratione reprehenderit eius
-                    quibusdam ex cupiditate ipsam totam, fugit hic, id eum error
-                    harum? Non eligendi veniam odit, reiciendis dolor tempora.
-                    Voluptatem sunt maiores eos fugit nisi quisquam.
+                    Taskify redefines task management in educational settings by
+                    providing a comprehensive and user-centric platform for
+                    students and teachers alike. With its robust features,
+                    intuitive interface, and focus on collaboration, Taskify
+                    empowers users to stay organized, enhance productivity, and
+                    foster effective communication in the classroom. Whether
+                    you're a student looking to manage your workload or a
+                    teacher seeking to streamline assignments, Taskify is your
+                    go-to solution for efficient task management. Try Taskify
+                    today and experience the future of educational task
+                    management.
                   </p>
                   <br />
                   <p>
-                    {item.desc}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                    exercitationem qui accusamus earum molestiae illum nisi
-                    quisquam sequi veniam vitae odio, voluptatibus nesciunt
-                    pariatur iusto dolor totam voluptatem labore cupiditate fuga
-                    itaque id laborum assumenda voluptatum. Rerum, animi vero.
-                    Alias, iure. Laudantium animi tempora recusandae laborum
-                    mollitia inventore a quia dolorem, eveniet facilis provident
-                    pariatur deserunt, eum nesciunt expedita excepturi ipsam
-                    harum tenetur, illo numquam. Qui explicabo ratione harum,
-                    praesentium tempore mollitia optio illum cum accusantium
-                    voluptates dolore quia iste hic accusamus quo neque placeat
-                    sint repellat? Praesentium fuga cum possimus libero nam
-                    doloribus sit aliquid. Minima, ad nam? Labore!
+                    <hr />
+                   {item.p1}
                   </p>
-                  <br />
+            
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Numquam cupiditate dignissimos corrupti quaerat quisquam qui
-                    reiciendis. Nihil vel rem nam voluptatem suscipit corrupti
-                    cum laborum itaque ullam aliquam alias impedit veniam
-                    ducimus corporis non nulla quos, in debitis hic consequuntur
-                    quas odit. Libero ullam itaque iusto aspernatur tempora?
-                    Consequuntur obcaecati veritatis iusto totam quisquam et
-                    quidem! Veritatis numquam dolor modi harum aperiam velit
-                    nihil earum quidem iste error ratione, odio deserunt ipsam
-                    nobis perferendis necessitatibus distinctio, delectus sequi
-                    alias fugit! Amet dignissimos voluptatem pariatur possimus!
-                    Impedit dolorum rerum quibusdam natus, nesciunt rem sequi,
-                    ipsum accusantium corporis enim illum amet voluptates?
+                    <hr />
+                    {item.p2}
                   </p>
                 </div>
               </div>

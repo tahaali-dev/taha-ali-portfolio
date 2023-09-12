@@ -48,8 +48,7 @@
 .card:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in;
-  box-shadow: var(--dark3) 0px 22px 70px 4px;
-  border: 1px dashed var(--dark2);
+ 
 }
 
 .card img {
@@ -82,33 +81,39 @@
 
 .card-icon {
   /* border: 1px solid; */
-  max-height: 50px;
-  /* padding-right: 20px; */
   display: flex;
-  gap: 10px;
+  max-height: 7vh;
   justify-content: center;
-  align-items: center;
 }
 .icon-set {
   /* border: 1px solid; */
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 0px 5px;
-  gap: 5px;
-  transition: 0.3s ease-in-out;
-}
-.icon-set:hover {
-  transform: scale(1.05);
-  transition: 0.3s ease-in-out;
-}
-.icon-set i {
-  font-size: 25px;
+  max-height: 7vh;
 }
 
-.icon-set .link {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
+.icon-set i {
+ color: #040d12;
+ font-size: 25px !important;
+ transition: 0.3s ease-in-out;
+
 }
+.icon-set i:hover {
+  color: green;
+  transition: 0.3s ease-in-out;
+ }
+
+ .padd-r{
+  /* border: 1px solid; */
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+ }
+ 
+
+
 
 .linkbtn {
   /* border: 1px solid; */
@@ -156,6 +161,9 @@
   .card {
     height: 400px;
     border-radius: 25px;
+    /* border: 1px solid; */
+    min-height: 55vh;
+    max-height: 55vh;
   }
 
   .card img {
@@ -165,23 +173,33 @@
     max-height: 50%;
   }
   .card-content {
-    gap: 9px;
+    /* border: 1px solid; */
+    gap: 5px;
+    min-height: 28vh;
+    max-height: 20vh;
   }
 
   .card-content h3 {
+    /* border: 1px solid; */
+    width: 100%;
     font-family: "Poppins", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
+    max-height: 8vh;
+    min-height: 8vh;
   }
 
   .card-content p {
+    /* border: 1px solid; */
     font-family: "Poppins", sans-serif;
-    text-align: justify;
+    text-align: left;
     font-size: 16px;
+    max-height: 11vh;
+    min-height: 11vh;
+    overflow: hidden;
   }
   .card-icon {
-    padding: 0;
     /* border: 1px solid; */
-    margin-top: 10px;
+    padding: 0;
     display: flex;
     /* gap: px; */
     justify-content: center;
@@ -190,18 +208,22 @@
     /* border: 1px solid; */
     margin: 0;
   }
+  .icon-set2{
+    /* border: 1px solid ; */
+    font-size: 30px;
+  }
   .btn-grad {
     margin: 0;
   }
   .hasttag {
-    right: 10px;
-    bottom: 160px;
+    right: 5px;
+    bottom: 27vh;
   }
 }
 
-@media (min-width: 787px) and (max-width: 1006px) {
+/* @media (min-width: 787px) and (max-width: 1006px) {
   .card {
     min-height: 520px;
     width: 100%;
   }
-}
+} */
