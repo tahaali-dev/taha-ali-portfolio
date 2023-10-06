@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const TechSec = () => {
   return (
     <div className="width-100c" id="skillssection">
-      <div className="width-85 Tech-cont" >
+      <div className="width-85 Tech-cont">
         <h2>FrontEnd Technology's I Know🚀</h2>
         <div className="icon-cont">
           <div className="icon-w ">
@@ -18,17 +18,13 @@ const TechSec = () => {
           </div>
 
           <div className="icon-w">
-            <img
-              className="tailwind"
-              src="/logos/tailwind css.png"
-              alt="Tailwind"
-            />
-            <p>Tailwind</p>
+            <img className="js" src="/logos/java.png" alt="JavaScript" />
+            <p>JavaScript</p>
           </div>
 
           <div className="icon-w">
-            <img className="js" src="/logos/java.png" alt="JavaScript" />
-            <p>JavaScript</p>
+            <img className="react" src="/logos/react.png" alt="React" />
+            <p>React</p>
           </div>
 
           <div className="icon-w">
@@ -41,8 +37,12 @@ const TechSec = () => {
           </div>
 
           <div className="icon-w">
-            <img className="react" src="/logos/react.png" alt="React" />
-            <p>React</p>
+            <img
+              className="tailwind"
+              src="/logos/tailwind css.png"
+              alt="Tailwind"
+            />
+            <p>Tailwind</p>
           </div>
 
           <div className="icon-w">
