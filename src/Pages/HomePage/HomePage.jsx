@@ -18,7 +18,7 @@ const HomePage = () => {
       <PortfolioGrid />
       <TechSec />
       <Tech2 />
-      <OtherTechs />
+      {/* <OtherTechs /> */}
     </>
   );
 };

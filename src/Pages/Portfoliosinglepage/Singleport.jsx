@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { data } from "../../data/data";
 import { useParams } from "react-router-dom";
 import "./singleport.css";
+import { FaGitSquare } from "react-icons/fa";
 
 const Singleport = () => {
   const { id } = useParams();
@@ -89,9 +90,9 @@ const Singleport = () => {
                   <br />
                   <p>
                     <hr />
-                   {item.p1}
+                    {item.p1}
                   </p>
-            
+
                   <p>
                     <hr />
                     {item.p2}
@@ -119,38 +120,35 @@ const Singleport = () => {
                   <div className="card-content">
                     <h3>{item.title}</h3>
                     <p>{item.desc}</p>
+
                     <div className="card-icon">
                       <Link className="link" to={item.code} target="_blank">
                         <div className="icon-set">
-                          <i className="fa-brands fa-github"></i>
-                          Code
+                          <i className="padd-r">
+                            <FaGitSquare />
+                          </i>
                         </div>
                       </Link>
 
                       <Link className="link" to={item.demo} target="_blank">
                         <div className="icon-set">
-                          <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                          Demo
+                          <button className="icon-btn">Live</button>
                         </div>
                       </Link>
+
                       <Link
                         to={`/port-single/${item.id}`}
-                        className="linkbtn btn-grad"
+                        className="link "
                         onClick={() => scrollToSection("top", 70)}
                       >
-                        ReadMore
+                        <div className="icon-set">
+                          <button className="icon-btn">More...</button>
+                        </div>
                       </Link>
                     </div>
                   </div>
                 </div>
               ))}
-          </div>
-          <div className="but-cont">
-            {itemsToShow < data.length && (
-              <button className="blackbutton" onClick={handleLoadMore}>
-                Load More
-              </button>
-            )}
           </div>
         </div>
       </div>

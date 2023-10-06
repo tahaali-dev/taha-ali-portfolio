@@ -48,7 +48,6 @@
 .card:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in;
- 
 }
 
 .card img {
@@ -94,26 +93,38 @@
 }
 
 .icon-set i {
- color: #040d12;
- font-size: 25px !important;
- transition: 0.3s ease-in-out;
-
+  font-size: 25px !important;
+  transition: 0.3s ease-in-out;
 }
 .icon-set i:hover {
   color: green;
   transition: 0.3s ease-in-out;
- }
+}
 
- .padd-r{
+.padd-r {
   /* border: 1px solid; */
   padding-bottom: 0px;
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
- }
- 
+}
+.icon-btn {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  color: black;
+  font-size: 17px;
+  padding: 3px 7px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.2s ease-in-out;
 
-
+}
+.icon-btn:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
 
 .linkbtn {
   /* border: 1px solid; */
@@ -208,7 +219,7 @@
     /* border: 1px solid; */
     margin: 0;
   }
-  .icon-set2{
+  .icon-set2 {
     /* border: 1px solid ; */
     font-size: 30px;
   }

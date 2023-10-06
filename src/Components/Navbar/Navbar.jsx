@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="nav-middle">
             <ul>
               <li>
-                <Link to="https://github.com/devtahajs" target="_blank">
+                <Link to="https://github.com/tahaali-dev" target="_blank">
                   <i
                     className="fa-brands fa-github"
                     style={{ color: "#232020" }}

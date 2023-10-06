@@ -9,8 +9,8 @@ import { data } from "../../data/data";
 
 const PortfolioGrid = () => {
   const navigate = useNavigate();
-  const intialcardload = 2;
-  const itemperpage = 2;
+  const intialcardload = 3;
+  const itemperpage = 3;
 
   const [itemsToShow, setItemsToShow] = useState(intialcardload);
 
@@ -22,7 +22,7 @@ const PortfolioGrid = () => {
     <div className="width-100c" id="portfolio">
       <div className="width-85 port-grid-cont ">
         <div className="title-cont">
-          <h2>Portfolio 📇</h2>
+          <h2>Full Stack MERN Projects 📇</h2>
           <p>Amazing Webs In This Section</p>
         </div>
 
@@ -35,22 +35,20 @@ const PortfolioGrid = () => {
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>
 
-
                 <div className="card-icon">
                   <Link className="link" to={item.code} target="_blank">
                     <div className="icon-set">
-                    <i className="padd-r"><FaGitSquare /></i>
+                      <i className="padd-r">
+                        <FaGitSquare />
+                      </i>
                     </div>
                   </Link>
-
-
 
                   <Link className="link" to={item.demo} target="_blank">
                     <div className="icon-set">
-                    <i className="padd-r"><AiFillEye /></i>
+                      <button className="icon-btn">Live</button>
                     </div>
                   </Link>
-
 
                   <Link
                     to={`/port-single/${item.id}`}
@@ -58,14 +56,10 @@ const PortfolioGrid = () => {
                     onClick={() => scrollToSection("top", 70)}
                   >
                     <div className="icon-set">
-                    <i className="padd-r"><CgMoreVerticalR /></i>
+                      <button className="icon-btn">More...</button>
                     </div>
                   </Link>
-
-
                 </div>
-
-
               </div>
             </div>
           ))}

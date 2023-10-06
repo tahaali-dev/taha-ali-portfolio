@@ -34,10 +34,10 @@ const TechSec = () => {
           <div className="icon-w">
             <img
               className="typescript"
-              src="/logos/typescript.png"
+              src="/logos/nextjs.png"
               alt="typescript"
             />
-            <p>TypeScript</p>
+            <p>Nextjs</p>
           </div>
 
           <div className="icon-w">

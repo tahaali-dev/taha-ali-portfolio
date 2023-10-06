@@ -21,8 +21,8 @@ const Tech2 = () => {
             </div>
 
             <div className="icon-w">
-              <img className="sql" src="/logos/sql.png" alt="sql" />
-              <p>MySql</p>
+              <img className="sql" src="/logos/nextjs.png" alt="sql" />
+              <p>Nextjs</p>
             </div>
 
             <div className="icon-w">

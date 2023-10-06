@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="width-80">
         <TechSec />
         <Tech2 />
-        <OtherTechs />
+        {/* <OtherTechs /> */}
       </div>
     </div>
   );

@@ -1,5 +1,3 @@
-
-
 export const data = [
   {
     id: "1",
@@ -21,6 +19,17 @@ export const data = [
     p2: "User-Friendly Interface: We've designed our app with simplicity in mind. Whether you're a financial guru or a novice, our intuitive interface ensures a seamless user experience.-----Never Lose Track Again: Say goodbye to missing receipts or forgotten expenses. With our Expense Tracker Web App, you'll have all your financial information at your fingertips.Take control of your finances and start your journey toward financial wellness with our Expense Tracker Web App. Track, budget, and visualize your expenses effortlessly, and gain a clear understanding of your financial standing. Start managing your expenses intelligently today!",
     code: "https://github.com/devtahajs",
     demo: "https://msaver-devtahajs.vercel.app/",
+    date: "today",
+  },
+  {
+    id: "3",
+    image: "/ss/thub3.png",
+    title: "Shopio-Ecommerce WebApp",
+    desc: "Step into the world of online shopping with our meticulously designed MERN e-commerce web application.",
+    p1: "For administrators, the application simplifies the process of managing products, providing the ability to effortlessly create, update, and delete product listings. Additionally, administrators can maintain a well-organized product catalog by adding, updating, and deleting categories. The platform also streamlines order management, enabling administrators to access and efficiently update order statuses, ensuring that customer orders are handled with precision and speed.",
+    p2: "On the user side, our web app provides a user-friendly registration process, ensuring secure and hassle-free access to personalized shopping features. Users can conveniently track the status of their orders in real-time, keeping them informed every step of the way. The application enhances the shopping experience by allowing users to browse products category-wise and apply advanced filters to find items that match their preferences. Plus, with the integration of the Razorpay payment gateway, users can shop with confidence, knowing that their payments are processed securely.",
+    code: "https://github.com/tahaali-dev/Shopio-Ecommerce-WebApp",
+    demo: "https://shopio-ecommerce-webapp.onrender.com/",
     date: "today",
   },
 ];
