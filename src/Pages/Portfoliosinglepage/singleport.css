@@ -13,11 +13,14 @@
   border-radius: 30px;
   overflow: hidden;
   max-height: 457px;
+  min-height: 457px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .top-sing .left img {
   /* border: 1px solid; */
-  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
 }
 .top-sing .right {
   /* border: 1px solid red; */
@@ -54,13 +57,12 @@
   display: flex;
   align-items: center;
   gap: 15px;
-   overflow-x: scroll;
+  overflow-x: scroll;
 }
 .middle .tech-stack img {
   border-radius: 50%;
   width: 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
- 
 }
 .middle .content {
   /* border: 1px solid black; */
@@ -97,7 +99,7 @@
 .hasttag {
   width: 50px;
   font-family: Arial, sans-serif !important;
-  color: white !important; 
+  color: white !important;
 }
 
 /* Mobile View */

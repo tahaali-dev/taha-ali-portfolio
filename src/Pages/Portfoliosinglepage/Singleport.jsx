@@ -74,20 +74,7 @@ const Singleport = () => {
 
                 <div className="content">
                   <h2>{item.title}</h2>
-                  <p>
-                    Taskify redefines task management in educational settings by
-                    providing a comprehensive and user-centric platform for
-                    students and teachers alike. With its robust features,
-                    intuitive interface, and focus on collaboration, Taskify
-                    empowers users to stay organized, enhance productivity, and
-                    foster effective communication in the classroom. Whether
-                    you're a student looking to manage your workload or a
-                    teacher seeking to streamline assignments, Taskify is your
-                    go-to solution for efficient task management. Try Taskify
-                    today and experience the future of educational task
-                    management.
-                  </p>
-                  <br />
+
                   <p>
                     <hr />
                     {item.p1}

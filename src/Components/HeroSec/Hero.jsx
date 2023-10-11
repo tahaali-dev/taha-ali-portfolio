@@ -37,8 +37,8 @@ const Hero = () => {
             Weaving Web Magic with Fresh Hands.😎
           </h2>
           <p>
-            Hi, I'm , a web developer specializing in MERN technologies.
-            I'm passionate about crafting dynamic web solutions that seamlessly
+            Hi, I'm , a web developer specializing in MERN technologies. I'm
+            passionate about crafting dynamic web solutions that seamlessly
             integrate the power of these tools. Let's work together to turn
             ideas into interactive realities using the versatile MERN stack.
           </p>
@@ -47,7 +47,7 @@ const Hero = () => {
               Reach Out
             </Link>
 
-            <a href="/testpdf.pdf" download className="white-button">
+            <a href="/Taha Mill wala.pdf" download className="white-button">
               Resume
             </a>
           </div>
